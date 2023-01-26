@@ -19,7 +19,9 @@ function App() {
           <button>OK</button>
         </form>
       </div>
-      <div className="App-footer">Copyright {getFullYear()} - {getFooterCopy()} </div>
+      <div className="App-footer">
+        Copyright {getFullYear()} - {getFooterCopy()}
+      </div>
     </div>
   );
 }
